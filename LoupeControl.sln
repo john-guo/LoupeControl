@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWindow", "TestWindow\TestWindow.csproj", "{FE7EAF1B-0E56-4256-AF52-45AACAF50C94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoupeControl", "LoupeControl\LoupeControl.csproj", "{FF4183D1-682C-468A-9DDB-19A01C59D044}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FE7EAF1B-0E56-4256-AF52-45AACAF50C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE7EAF1B-0E56-4256-AF52-45AACAF50C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE7EAF1B-0E56-4256-AF52-45AACAF50C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4183D1-682C-468A-9DDB-19A01C59D044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4183D1-682C-468A-9DDB-19A01C59D044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4183D1-682C-468A-9DDB-19A01C59D044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4183D1-682C-468A-9DDB-19A01C59D044}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using LoupeControl;
 
 namespace TestWindow
 {
@@ -22,6 +23,11 @@ namespace TestWindow
         public Window1()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            LoupeBehavior.MagnifyStart.Execute(null);
         }
     }
 }
